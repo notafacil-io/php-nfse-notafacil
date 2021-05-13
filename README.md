@@ -1,4 +1,4 @@
-# Pacote de integração Nota Fácil | PHP Client Nota Fácil
+# Pacote de integração Nota Fácil | PHP Nfs-e Nota Fácil
 
 [![Packagist](https://badgen.net/packagist/v/notafacil-io/php-nfse-notafacil)](https://packagist.org/packages/notafacil-io/php-nfse-notafacil)
 [![MIT License](https://badgen.net/github/license/notafacil-io/php-nfse-notafacil)](https://opensource.org/licenses/MIT)
@@ -52,7 +52,7 @@ composer require notafacil-io/php-nfse-notafacil
 ```
 #### Sem Composer <span id="withoutcomposer"></span>
 Se seu projeto o impede de usar `composer`, você pode baixar manualmente este pacote e todas as suas dependências e referenciá-las a partir de seu código. No entanto, existem soluções que podem automatizar esse processo.
-Um deles é a ferramenta online `php-download`. Você pode usá-lo para encontrar [PHP Client Nota Fácil](https://php-download.com/package/notafacil-io/php-nfse-notafacil), baixá-lo de lá e usar em seu projeto sem coletar manualmente as dependências.
+Um deles é a ferramenta online `php-download`. Você pode usá-lo para encontrar [PHP Nfs-e Nota Fácil](https://php-download.com/package/notafacil-io/php-nfse-notafacil), baixá-lo de lá e usar em seu projeto sem coletar manualmente as dependências.
 
 --
 ## Começo rápido <span id="quickstart"></span>
