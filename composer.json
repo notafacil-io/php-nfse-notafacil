@@ -1,0 +1,56 @@
+{
+    "name": "notafacil-io/php-nfse-notafacil",
+    "description": "Pacote de integração Nota Fácil | PHP Nfs-e Nota Fácil",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        
+        {
+            "name": "Equipe Nota Fácil",
+            "email": "suporte@notafacil.io",
+            "role": "Owner"
+        },
+        {
+            "name": "Claudio Alexssandro Lino",
+            "email": "claudio.lino.dev@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Matheus Falconde",
+            "email": "matheus_felipe25@live.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "guzzlehttp/guzzle": "^6.3",
+        "notafacil-io/php-client-notafacil": "^1.0"
+    },
+ 
+    "require-dev": {
+        "symfony/var-dumper": "^5.2",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotaFacil\\Nfse\\":"src/Nfse"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotaFacil\\Nfse\\Test\\":"src/Test"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
