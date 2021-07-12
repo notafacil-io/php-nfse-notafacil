@@ -42,6 +42,16 @@ class NSFeNotaFacil extends BaseService
     {
         return $this->request( $this->base_url() . $this->endpoint->nfse->cancelIssue, 'POST', $payload);
     }
+
+    public function listAll(): NotaFacilResource
+    {
+        return $this->request( $this->base_url() . $this->endpoint->nfse->listAll);
+    }
+
+    public function showByID($idNFSe): NotaFacilResource
+    {
+        return $this->request( $this->base_url() . str_replace(':id', $idNFSe , $this->endpoint->nfse->byID));
+    }
     
    
 
