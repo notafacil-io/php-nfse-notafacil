@@ -23,8 +23,7 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "guzzlehttp/guzzle": "^6.3",
-        "notafacil-io/php-client-notafacil": "^1.0"
+        "notafacil-io/php-common-notafacil": "^1.0"
     },
  
     "require-dev": {
@@ -33,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NotaFacil\\Nfse\\":"src/Nfse"
+            "NotaFacil\\Nfse\\":"src/NotaFacil"
         }
     },
     "autoload-dev": {
