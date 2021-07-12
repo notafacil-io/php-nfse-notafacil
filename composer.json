@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotaFacil\\Nfse\\":"src/NotaFacil"
+            "NotaFacil\\NFSe\\":"src/NotaFacil"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotaFacil\\Nfse\\Test\\":"src/Test"
+            "NotaFacil\\NFSe\\Test\\":"src/Test"
         }
     },
     "extra": {

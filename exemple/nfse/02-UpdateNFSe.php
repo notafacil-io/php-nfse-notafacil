@@ -1,7 +1,7 @@
 <?php
 include_once(__DIR__.'/../../vendor/autoload.php');
 
-use NotaFacil\Nfse\Services\NSFeNotaFacil;
+use NotaFacil\NFSe\Services\NFSeNotaFacil;
 use NotaFacil\Common\Exceptions\NotaFacilException;
 
 try {
@@ -90,7 +90,7 @@ try {
     ];
 
     
-    $services = (new NSFeNotaFacil($credentialsToken))->updateNFSe(143503,$payload);
+    $services = (new NFSeNotaFacil($credentialsToken))->updateNFSe(143503,$payload);
 
     dump($services->getContent(), $services->getStatusCode());
       

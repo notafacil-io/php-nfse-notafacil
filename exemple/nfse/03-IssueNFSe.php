@@ -1,7 +1,7 @@
 <?php
 include_once(__DIR__.'/../../vendor/autoload.php');
 
-use NotaFacil\Nfse\Services\NSFeNotaFacil;
+use NotaFacil\NFSe\Services\NFSeNotaFacil;
 use NotaFacil\Common\Exceptions\NotaFacilException;
 
 try {
@@ -14,7 +14,7 @@ try {
     $payload = ["ids" => [ 143503 ] ];
 
     
-    $services = (new NSFeNotaFacil($credentialsToken))->issueNFSe($payload);
+    $services = (new NFSeNotaFacil($credentialsToken))->issueNFSe($payload);
 
     dump($services->getContent(), $services->getStatusCode());
       

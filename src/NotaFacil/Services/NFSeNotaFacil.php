@@ -1,5 +1,5 @@
 <?php
-namespace NotaFacil\Nfse\Services;
+namespace NotaFacil\NFSe\Services;
 
 
 use NotaFacil\Common\Traits\RequestTrait;
@@ -8,7 +8,7 @@ use NotaFacil\Common\Resources\NotaFacilResource;
 /**
  *  Class responsible for the in the Nota Fácil API.
  */
-class NSFeNotaFacil extends BaseService
+class NFSeNotaFacil extends BaseService
 {
     use RequestTrait;
                                                                                                                                                                                                                
