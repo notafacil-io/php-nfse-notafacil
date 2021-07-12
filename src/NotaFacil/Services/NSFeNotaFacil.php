@@ -52,6 +52,11 @@ class NSFeNotaFacil extends BaseService
     {
         return $this->request( $this->base_url() . str_replace(':id', $idNFSe , $this->endpoint->nfse->byID));
     }
+
+    public function calculation($payload): NotaFacilResource
+    {
+        return $this->request( $this->base_url() . $this->endpoint->nfse->calculation, 'POST', $payload);
+    }
     
    
 

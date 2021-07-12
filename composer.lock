@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "notafacil-io/php-common-notafacil",
-            "version": "1.0.3",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/notafacil-io/php-common-notafacil.git",
-                "reference": "d785260a01525dc43fe8b13811535c265888a2fb"
+                "reference": "e24e4e81a9ef921a83ecd4df45e55e83a0b5b17b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/notafacil-io/php-common-notafacil/zipball/d785260a01525dc43fe8b13811535c265888a2fb",
-                "reference": "d785260a01525dc43fe8b13811535c265888a2fb",
+                "url": "https://api.github.com/repos/notafacil-io/php-common-notafacil/zipball/e24e4e81a9ef921a83ecd4df45e55e83a0b5b17b",
+                "reference": "e24e4e81a9ef921a83ecd4df45e55e83a0b5b17b",
                 "shasum": ""
             },
             "require": {
@@ -79,9 +79,9 @@
             "description": "Pacote de integração Nota Fácil | PHP Common Nota Fácil",
             "support": {
                 "issues": "https://github.com/notafacil-io/php-common-notafacil/issues",
-                "source": "https://github.com/notafacil-io/php-common-notafacil/tree/1.0.3"
+                "source": "https://github.com/notafacil-io/php-common-notafacil/tree/1.0.5"
             },
-            "time": "2021-07-12T11:57:37+00:00"
+            "time": "2021-07-12T13:28:26+00:00"
         }
     ],
     "packages-dev": [

@@ -22,6 +22,18 @@ class NSFeConsultNotaFacil extends BaseService
     {
         return $this->request( $this->base_url() . $this->endpoint->nfse->consultRPS, 'POST', $payload );
     }
+    public function consultNFSe($payload): NotaFacilResource
+    {
+        return $this->request( $this->base_url() . $this->endpoint->nfse->consultNFSe, 'POST', $payload );
+    }
+    public function consult($payload): NotaFacilResource
+    {
+        return $this->request( $this->base_url() . $this->endpoint->nfse->consult, 'POST', $payload );
+    }
+    // public function consultCancellation($payload): NotaFacilResource
+    // {
+    //     return $this->request( $this->base_url() . $this->endpoint->nfse->consultCancellation, 'POST', $payload );
+    // }
 
     
    
